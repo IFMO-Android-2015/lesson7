@@ -37,6 +37,6 @@ public final class LeakActivity extends Activity {
                 }
                 return null;
             }
-        }.execute((Void)null);
+        }.executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR);
     }
 }

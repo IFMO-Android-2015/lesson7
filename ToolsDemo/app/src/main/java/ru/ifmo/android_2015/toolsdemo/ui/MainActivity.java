@@ -20,4 +20,8 @@ public final class MainActivity extends Activity {
     public void leakClicked(View view) {
         startActivity(new Intent(this, LeakActivity.class));
     }
+
+    public void weakClicked(View view) {
+        startActivity(new Intent(this, WeakActivity.class));
+    }
 }

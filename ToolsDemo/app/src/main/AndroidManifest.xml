@@ -15,7 +15,7 @@
         </activity>
 
         <activity android:name=".ui.LeakActivity"/>
-        <activity android:name=".ui.WeakActivity"/>
+        <activity android:name=".ui.WeakActivity" android:windowSoftInputMode=""/>
     </application>
 
 </manifest>
